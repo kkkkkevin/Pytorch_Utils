@@ -28,6 +28,8 @@ classes = {
     'Ripple': 6,
     'Smooth Surface': 7,
     'Wake': 8,
+    'Each Fish': 9,
+    'w': 10,
 }
 
 
