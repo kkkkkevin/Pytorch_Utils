@@ -1,3 +1,4 @@
+import sys
 import random
 
 # OpenCV
@@ -6,7 +7,9 @@ import cv2
 # Albumenatations
 import albumentations.augmentations.functional as F
 from albumentations.core.transforms_interface import DualTransform
-import custom_datasets.functional_alb as MF
+
+sys.path.append('/workspaces/SchoolOfFishDetection_Pytorch/develop/')
+import utils.transforms.functional_alb as MF
 
 
 class _BaseRandomSizedCrop(DualTransform):
